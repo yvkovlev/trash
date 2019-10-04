@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Gallery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic,cyrillic-ext"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header header--inner">
+
+		<nav class="header__lang lang">
+			<a href="./" class="lang__button">
+				<span class="visually-hidden">Выберите язак</span>
+				ENG
+			</a>
+		</nav>
+
+		<nav class="header__nav nav">
+			<button class="button-burger" data-active="">
+				<span class="visually-hidden">
+					Открыть или закрыть меню
+				</span>
+			</button>
+
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="./gallery.html" class="nav__link active">
+						Фотогалерея
+					</a>
+				</li>
+				<li class="nav__item">
+					<a href="./blog-category.html" class="nav__link">
+						Блог
+					</a>
+				</li>
+				<li class="nav__item">
+					<a href="./contacts.html" class="nav__link">
+						Контакты
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<ul class="header__contacts contacts">
+			<li class="contacts__item">
+				<a href="tel:+79000000000" class="contacts__link">
+					<svg class="icon" width="8" height="8">
+						<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_telephone"></use>
+					</svg>
+					+7 (900)000 00 00
+				</a>
+			</li>
+			<li class="contacts__item only-mobile">
+				<button class="contacts__link" data-popup="map">
+					<svg class="icon" width="8" height="8">
+						<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_map-flag"></use>
+					</svg>
+					Москва, Тверская 7, п.9
+				</button>
+			</li>
+		</ul>
+
+		<div class="header__logo-box">
+			<a href="/">
+				<img src="images/logo/main-logo.svg" alt="Telegraph" width="68" class="header__logo">
+			</a>
+		</div>
+	</header>
+
+	<main class="inner">
+		<section id="gallery-main">
+			<div class="container-fluid">
+				<div class="h1-title-page">
+					<span id="h1-title-page-up" class="fw-norm-mobile">
+						Фотогалерея
+					</span>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 gallery-mobile-nav">
+						<div class="gallery-mobile-nav__item active" data-gallery-scroll="1">
+							<span class="gallery-mobile-nav__number">
+								03
+							</span>
+							<span class="gallery-mobile-nav__title">
+								Кофренец зал
+							</span>
+						</div>
+						<div class="gallery-mobile-nav__item" data-gallery-scroll="2">
+							<span class="gallery-mobile-nav__number">
+								04
+							</span>
+							<span class="gallery-mobile-nav__title">
+								Кофренец зал
+							</span>
+						</div>
+					</div>
+					<div class="custom-arrow-slider">
+						<div class="left-arrow arrow--style"><img src="images/icons/left.png" alt="<---"></div>
+						<div class="rigtharrow"><img src="images/icons/rigth.png" alt="--->"></div>
+					</div>
+					<div class="col-lg-12 col-sm-12 ">
+						<div class="swiper-container  swiper__main">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide slick-gallery active" data-gallery="1">
+									<div class="info-gallery-show gallery-left">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="name-gallery">
+													<span>01</span> Студия
+												</div>
+												<div class="descript-gallery">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste,
+													easpernatur at quisquam quae, aut, beatae totam earum quidem fugit
+													esrepudiandae excepturi molestias eum fuga, quaerat fugiat quas
+													quis.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_item1" data-position="1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox
+											data-fancybox-trigger="gallery">
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+
+										<p>Lorem ipsum dolor sit amet,</p>
+									</div>
+									<div class="slider_item1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox
+											data-fancybox-trigger="gallery">
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet, .</p>
+									</div>
+									<div class="slider_item1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox>
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet, .</p>
+									</div>
+									<div class="slider_item1 slider_item-last" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox>
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet,</p>
+									</div>
+								</div>
+								<div class="swiper-slide slick-gallery " data-gallery="2">
+									<div class="info-gallery-show gallery-left">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="name-gallery">
+													<span>02</span> Студия
+												</div>
+												<div class="descript-gallery">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste,
+													easpernatur at quisquam quae, aut, beatae totam earum quidem fugit
+													esrepudiandae excepturi molestias eum fuga, quaerat fugiat quas
+													quis.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_item1" data-position="1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox
+											data-fancybox-trigger="gallery">
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+
+										<p>Lorem ipsum dolor sit amet,</p>
+									</div>
+									<div class="slider_item1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox
+											data-fancybox-trigger="gallery">
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet, .</p>
+									</div>
+									<div class="slider_item1" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox>
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet, .</p>
+									</div>
+									<div class="slider_item1 slider_item-last" data-gallery="1">
+										<a href="images/pictures/slider1.jpg" data-fancybox>
+											<img src="images/pictures/slider1.jpg" alt="">
+										</a>
+										<p>Lorem ipsum dolor sit amet,</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="gallery-des-nav">
+							<div class="gallery-des-nav__btn gallery-des-nav__prev"></div>
+							<div class="gallery-des-nav__number">01</div>
+							<div class="gallery-des-nav__btn gallery-des-nav__next"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+
+		<footer class="footer">
+			<ul class="footer__contacts contacts">
+				<li class="contacts__item">
+					<a href="tel:+79000000000" class="contacts__link">
+						<svg class="icon" width="8" height="8">
+							<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_telephone"></use>
+						</svg>
+						+7 (900)000 00 00
+					</a>
+				</li>
+				<li class="contacts__item">
+					<button class="contacts__link" data-popup="map">
+						<svg class="icon" width="8" height="8">
+							<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_map-flag"></use>
+						</svg>
+						Москва, Тверская 7, п.9
+					</button>
+				</li>
+				<li class="contacts__item">
+					<a href="mailto:mail@mail.ru" class="contacts__link">
+						<svg class="icon" width="8" height="8">
+							<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_mail"></use>
+						</svg>
+						почта@mail.com
+					</a>
+				</li>
+				<li class="contacts__item only-desktop">
+					<span class="contacts__link">
+						Telegraph by Rent24 © 2019. Все права защищены.
+					</span>
+				</li>
+			</ul>
+
+			<div class="flex footer__buttons only-desktop">
+				<button class="button">
+					Забронировать коворкинг
+				</button>
+				<button class="button">
+					Забронировать мероприятие
+				</button>
+				<a href="#" class="link">Оставить заявку</a>
+			</div>
+
+			<div class="footer__right">
+				<ul class="footer__contacts contacts only-desktop">
+					<li class="contacts__item">
+						<a href="" class="contacts__link">
+							Фотогалерея
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a href="http://telegraph.ruyou.ru/page2/blog-category.html" class="contacts__link">
+							Блог
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a href="http://telegraph.ruyou.ru/page2/contacts.html" class="contacts__link">
+							Контакты
+						</a>
+					</li>
+				</ul>
+
+				<ul class="footer__social social">
+					<li class="social__item">
+						<a href="" class="social__link">
+							<svg class="icon" width="25" height="25">
+								<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_instagram">
+								</use>
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="" class="social__link">
+							<svg class="icon" width="25" height="25">
+								<use xlink:href="/images/sprite-icons/sprite/sprite-icons.svg#icon_facebook">
+								</use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__logo-box">
+				<img src="images/logo/main-logo.svg" alt="Telegraph" width="68" class="footer__logo">
+			</div>
+		</footer>
+
+	</main>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/fancybox.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/pop.js"></script>
+	<script src="js/init.js"></script>
+
+</body>
+
+</html>
