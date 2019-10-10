@@ -95,7 +95,7 @@ body {
   font-size: 9px;
   font-weight: 600;
   color: #000;
-  background-color: #fff;
+  background-color: #292c2d;
   overflow-x: hidden;
 }
 .visually-hidden {
@@ -324,7 +324,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #A9A9A9;
+  color: #e6e6e6;
 }
 .contacts__item {
   display: block;
@@ -377,6 +377,7 @@ h6 {
   top: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
+  filter: invert(100%);
 }
 .header__logo-box a {
   display: block;
@@ -461,6 +462,7 @@ h6 {
   }
   .header__logo {
     width: 140px;
+    filter: invert(100%);
   }
 }
 .lang {
@@ -663,7 +665,7 @@ h6 {
   z-index: -1;
   top: -100%;
   left: -20px;
-  opacity: 0.4;
+  opacity: 0.05;
 }
 .main__block--second {
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -691,7 +693,7 @@ h6 {
   z-index: -1;
   top: -100%;
   right: -20px;
-  opacity: 0.4;
+  opacity: 0.05;
 }
 .main__block.active {
   clip-path: none;
@@ -765,7 +767,7 @@ h6 {
   position: relative;
   margin: 0;
   font-size: 26px;
-  color: #343434;
+  color: #fff;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -898,7 +900,7 @@ h6 {
     box-sizing: border-box;
   }
   .main__block::after {
-    background-color: #ffffff;
+    background-color: #292c2d;
   }
   .main__block--first {
     clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
@@ -1019,7 +1021,7 @@ h6 {
   .main__block-text {
     margin: 0;
     width: 100%;
-    color: #565656;
+    color: #a5a5a5;
     font-size: 14px;
     margin-bottom: 50px;
   }
@@ -5568,12 +5570,12 @@ a:hover {
 
 .point-description-text {
   font-size: 14px;
-  color: #9E9E9E;
+  color: #7b7b7b;
   width: 60%;
 }
 
 .point-description-text span {
-  color: #565656;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -5592,7 +5594,7 @@ a:hover {
   width: 12px;
   height: 12px;
   /*box-shadow: 0 0 0 6px rgba(146, 195, 208, 0.25);*/
-  background: #92c3d0;
+  background: #e4d9cf;
   position: absolute;
   right: 0;
   top: 0;
@@ -5625,7 +5627,7 @@ a:hover {
 }
 
 .main-socials ul li a {
-  color: #5e8f9c;
+  color: #ac8a68;
 }
 
 .main-socials ul li:after {
